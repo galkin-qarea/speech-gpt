@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="container md mx-auto py-6">
+      <div class="flex flex-row justify-center">
+        <button id="record" class="px-6 py-3 mx-3 rounded-md bg-blue-800 font-bold text-white w-40">
+          Record</button>
+        <button id="transcribe" class="px-6 py-3 mx-3 rounded-md bg-blue-800 font-bold text-white w-40">
+          Transcribe</button>
+      </div>
+      <textarea id="transcript" class="w-full min-h-fit border-2 border-blue-800 focus:border-blue-800 rounded-md my-3 p-3"></textarea>
+    </div>
+  </body>
+</html>
